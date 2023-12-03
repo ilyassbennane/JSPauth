@@ -71,7 +71,7 @@ public class ForgetPassword extends HttpServlet {
     private void sendVerificationCodeByEmail(String email, String verificationCode) {
 
         final String username = "ilyassbennane123@gmail.com";
-        final String password = "dshl sana lttb kxxv";
+        final String password = "";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
